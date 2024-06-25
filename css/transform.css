@@ -1,0 +1,145 @@
+#one {
+    display: inline-block;
+    background-color: lightgreen;
+    width: 200px;
+    height: 200px;
+    transform: scale(1);
+    transition: transform 0.5s, background-color 0.5s;
+    margin: 10px;
+}
+
+#one:hover {
+    transform: scale(1.2);
+    background-color: green;
+}
+
+#two {
+    display: inline-block;
+    background-color: lightskyblue;
+    width: 200px;
+    height: 200px;
+    transform: rotate(0deg);
+    transition: transform 0.5s, background-color 0.5s;
+    margin: 10px;
+}
+
+#two:hover {
+    transform: rotate(180deg);
+    background-color: darkblue;
+}
+
+#three {
+    display: inline-block;
+    background-color: lightcoral;
+    width: 200px;
+    height: 200px;
+    transform: translateX(0px);
+    transition: transform 0.5s, background-color 0.5s;
+    margin: 10px;
+}
+
+#three:hover {
+    transform: translateX(120px);
+    background-color: red;
+}
+
+#four {
+    display: inline-block;
+    background-color: yellowgreen;
+    width: 200px;
+    height: 200px;
+    transform: translateY(0px);
+    transition: transform 0.5s, background-color 0.5s;
+    margin: 10px;
+}
+
+#four:hover {
+    transform: translateY(120px);
+    background-color: orange;
+}
+
+#five {
+    display: inline-block;
+    background-color: yellowgreen;
+    width: 200px;
+    height: 200px;
+    transform: rotateX(0deg);
+    transition: transform 0.5s, background-color 0.5s;
+    margin: 10px;
+}
+
+#five:hover {
+    transform: rotateX(180deg);
+    background-color: orange;
+}
+
+#six {
+    display: inline-block;
+    background-color: yellowgreen;
+    width: 200px;
+    height: 200px;
+    transform: rotateY(0deg);
+    transition: transform 0.5s, background-color 0.5s;
+    margin: 10px;
+}
+
+#six:hover {
+    transform: rotateY(180deg);
+    background-color: orange;
+}
+
+#seven {
+    display: inline-block;
+    background-color: yellowgreen;
+    width: 200px;
+    height: 200px;
+    transform: skewX(0deg);
+    transition: transform 0.5s, background-color 0.5s;
+    margin: 10px;
+}
+
+#seven:hover {
+    transform: skewX(180deg);
+    background-color: orange;
+}
+
+#eight {
+    display: inline-block;
+    background-color: yellowgreen;
+    width: 200px;
+    height: 200px;
+    transform: skewY(0deg);
+    transition: transform 0.5s, background-color 0.5s;
+    margin: 10px;
+}
+
+#eight:hover {
+    transform: skewY(180deg);
+    background-color: orange;
+}
+
+#nine {
+    display: inline-block;
+    background-color: yellowgreen;
+    width: 200px;
+    height: 200px;
+    transform: rotate3d(0);
+    box-shadow: 20px 20px green;
+    transition: transform 0.5s, background-color 0.5s;
+    margin: 10px;
+}
+
+#nine:hover {
+    transform: rotate3d(80, 20, 180, 180deg);
+    box-shadow: 20px 20px red;
+    background-color: orange;
+}
+
+/* transform: rotate(0deg);
+ transform: rotate(360deg); */
+
+/* transform: scale(1);
+ transform: scale(1.5); */
+
+/* transform: skewX(0deg);
+ transform: skewX(40deg); */

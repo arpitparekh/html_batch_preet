@@ -1,0 +1,95 @@
+#container{
+    display: flex;
+    flex-direction: column;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-family: sans-serif;
+    gap: 10px;
+}
+
+#div_one{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    background-color: rgb(255, 232, 232);
+    border-radius: 10px;
+}
+
+#div_one input[type=text],input[type=email]{
+    height: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    outline-style: hidden;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    
+}
+
+#div_one label{
+    margin-left: 10px;
+}
+
+#div_one input[type=text]:focus {
+    outline-color: brown;
+}
+
+#div_one input[type=email]:focus {
+    outline-color: brown;
+}
+
+#div_two{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    background-color: rgb(255,232, 232);
+    border-radius: 10px;
+}
+
+#div_two label{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+#div_two div{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+}
+
+#div_three{
+    display: flex;
+        flex-direction: column;
+        padding: 10px;
+        background-color: rgb(255, 232, 232);
+        border-radius: 10px;
+}
+
+#div_three div{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#div_four{
+    margin-top: 10px;
+        margin-bottom: 5px;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        padding: 10px;
+        align-items: center;
+        background-color: rgb(255, 232, 232);
+}
+
+#div_four select{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(215, 210, 232);
+    border-radius: 20px;
+    padding: 5px;
+}
+

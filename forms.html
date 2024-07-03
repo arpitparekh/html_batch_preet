@@ -6,54 +6,74 @@
 
         <form action="list.html">
 
-           <fieldset>
+                <div id="container">
 
-                <legend> User Form </legend>
+                    <div id="div_one">
+                        <label><b>First Name</b> </label>
+                        <input type="text" placeholder="First Name">
+                        <label><b>Last Name</b>  </label>
+                        <input type="text" placeholder="Last Name">
+                        <label><b>Email</b>  </label>
+                        <input type="email" placeholder="Email">
+                    </div>
+                    
+                    <div id="div_two">
+                        <label><b>Please Choose Gender :</b></label>
 
-                <label> First Name </label><br>
-                <input type="text" placeholder="first name"><br>
-                <label> Last Name </label><br>
-                <input type="text" placeholder="last name"><br>
-                <label> Email </label><br>
-                <input type="email" placeholder="email"><br>
+                        <div>
+                            <label> Male </label>
+                            <input type="radio" name="gender">
+                            <label> Female </label>
+                            <input type="radio" name="gender">
+                        </div>
+
+                    </div>
                 
-                <label>Please Choose Gender : </label><br>
-                <label> Male </label>
-                <input type="radio" name="gender">
-                <label> Female </label>
-                <input type="radio" name="gender"><br>
+                    <div id="div_three">
+
+                        <label><b>Please Choose Hobbies :</b> </label>
+
+
+                        <div>
+                            <label> Cricket </label>
+                            <input type="checkbox" name="hobbies">
+                            <label> Cycling </label>
+                            <input type="checkbox" name="hobbies">
+                            <label> Gaming </label>
+                            <input type="checkbox" name="hobbies">
+                            <label> Dancing </label>
+                            <input type="checkbox" name="hobbies">
+                            <label> Swimming </label>
+                            <input type="checkbox" name="hobbies">
+                            <label> Drawing </label>
+                            <input type="checkbox" name="hobbies">
+                        </div>
+
+                    </div>
+
+                    <div id="div_four">
+                        <label> <b>Choose Country</b> </label>
+                        <select>
+                            <option>India</option>
+                            <option>Pakistan</option>
+                            <option selected>Canada</option>
+                            <option>Somalia</option>
+                            <option>Russia</option>
+                        </select>
+                    </div>
                 
-                <label>Please Choose Hobbies : </label><br>
-                <label> Cricket </label>
-                <input type="checkbox" name="hobbies"><br>
-                <label> Cycling </label>
-                <input type="checkbox" name="hobbies"><br>
-                <label> Gaming </label>
-                <input type="checkbox" name="hobbies"><br>
-                <label> Dancing </label>
-                <input type="checkbox" name="hobbies"><br>
-                <label> Swimming </label>
-                <input type="checkbox" name="hobbies"><br>
-                <label> Drawing </label>
-                <input type="checkbox" name="hobbies"><br>
                 
-                <label> Choose Country </label>
-                <select>
-                    <option>India</option>
-                    <option>Pakistan</option>
-                    <option selected>Canada</option>
-                    <option>Somalia</option>
-                    <option>Russia</option>
-                </select><br>
                 
-                <label> Please Write an Essay </label><br>
+                <label> Please Write an Essay </label> 
                 <textarea rows="5" cols="20"></textarea>
-                </textarea><br>
+                </textarea> 
                 
                 <input type="submit">
                 <button> Press me </button>
 
-           </fieldset>
+                </div>
+
+                
 
         </form>
 

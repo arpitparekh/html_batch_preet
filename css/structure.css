@@ -11,8 +11,35 @@ body{
 
 header, footer{
     background-color: lightgreen;
-    text-align: center;
     padding: 1em;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+header img{
+    height: 25px;
+    width: 25px;
+}
+
+header ul{
+    list-style: none;
+}
+
+header li{
+    display: inline;
+    margin: 0 10px;
+    background-color: lightgreen;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+header li:hover{
+    background-color: lightslategray;
+    color: white;
 }
 
 #container{
@@ -32,7 +59,7 @@ aside{
 }
 
 main{
-    flex: 3;
+    flex: 5;
     background-color: lightslategray;
     min-width: 300px;
 }

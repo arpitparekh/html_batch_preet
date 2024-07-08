@@ -74,4 +74,9 @@ footer{
     height: 100%;
 }
 
+iframe{
+    height: 300px;
+    width: 500px;   
+}
+
 
